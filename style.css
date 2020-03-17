@@ -1,0 +1,186 @@
+/* Type your code here */
+
+
+/* change the font family and spacing as per your project font */
+#tabtop{
+    background-color: red;
+    padding: 10px;
+    font-size: medium;
+    display: flex;
+    /* justify-items: stretch; */
+    justify-content: space-between; 
+    color: white;   
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-shadow:3px 3px 3px grey;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: grey;
+    margin-left: 100px;
+}
+
+#logo img{
+    padding-top: 20px;
+    padding-right: 50px;
+    width: 150px;
+    height: 40px;
+}
+#logo{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#bd{
+    border-top-color: grey;
+}
+#tf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-color: grey;
+}
+
+body {
+    background-color: black;
+  }
+
+#table{
+    margin-left: 100px;
+    width: 700px;
+    background-color: white;
+    border: 1px solid grey ;
+    
+}
+
+.heit{ 
+    height: 30px;
+
+} 
+#bod{
+    border-color: grey;
+}
+
+#wid{
+    width: 170px;
+    display: box;
+    text-align: start;
+}
+#wid2{
+    width: 300px;
+}
+#wid3{
+    width:50px;
+    text-align: start;
+}
+#wid4{
+    width:50px;
+    text-align: start;
+}#wid5{
+    width:50px;
+    text-align: start;
+}
+#wid6{
+    width:50px;
+    text-align: start;
+}#wid7{
+    width:50px;
+    text-align: start;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	margin-top: 5px;
+	margin-left: 150px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
+
+section{
+    background-color: white;
+   
+    background-image: url('./background-image1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 654px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer img{
+    width: 15px;
+    height: 15px;
+}
+table tr{
+     border: 2px lightgrey ;
+     
+}
+a{
+    text-decoration: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
